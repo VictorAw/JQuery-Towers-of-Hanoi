@@ -1,0 +1,39 @@
+head, body, figure, h1, ul, li {
+  background-color: transparent;
+}
+
+.hanoi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rod {
+  background-color: gray;
+  list-style: none;
+  height: 600px;
+  width: 50px;
+  text-align: center;
+  margin: 80px;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+.disk {
+  height: 50px; /* default height, overwritten in javascript */
+  background-color: green;
+  margin-top: 5px;
+}
+
+.selected {
+  background-color: pink;
+}
