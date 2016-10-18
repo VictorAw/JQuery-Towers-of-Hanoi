@@ -30,8 +30,11 @@ li {
 
 .disk {
   height: 50px; /* default height, overwritten in javascript */
-  background-color: green;
+  background-color: whitesmoke;
   margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid green;
+  box-shadow: 10px 10px 5px gray;
 }
 
 .selected {
